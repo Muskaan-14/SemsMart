@@ -7,13 +7,23 @@
 // My orders (whatever items kept for selling) products/id POST seller_id
 // My orders particular products bids/id prod_id
 
-const express = require('express');
+// const express = require('express');
 
-const {loginUser } = require('../Controller/authControllers');
+// const {loginUser } = require('../Controller/authControllers');
+
+// const router = express.Router();
+
+// //router.post('/login', loginUser);
+ 
+// module.exports = router;
+const express = require('express');
+const { loginUser } = require('../Controller/authControllers');
 
 const router = express.Router();
 
-//router.post('/login', loginUser);
- 
+// Define the login route
+router.post('/', loginUser); // This matches the root API route ('/') for login as specified in your requirements.
+
 module.exports = router;
+
  
