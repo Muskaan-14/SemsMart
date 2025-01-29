@@ -251,9 +251,9 @@
 // export default HomePage;
 import React from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
-import NavBar from '../components/Navbar'; // Import Navbar
-import ProductCard from '../components/ProductCard'; // Import ProductCard
-import Footer from '../components/Footer'; // Import Footer
+import NavBar from '../components/Navbar'; 
+import ProductCard from '../components/ProductCard'; 
+import Footer from '../components/Footer'; 
 
 const HomePage = () => {
   const featuredProducts = [
