@@ -284,7 +284,7 @@ const LoginPage = () => {
                 <p className="text-center">Please sign in to your account</p>
                 <Form onSubmit={handleLogin}>
                   <Form.Group controlId="formUsername" className="mb-3">
-                    <label htmlFor="username">Username:</label>
+                    <label htmlFor="username">Username:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input
                       type="text"
                       id="username"
@@ -295,7 +295,7 @@ const LoginPage = () => {
                     />
                   </Form.Group>
                   <Form.Group controlId="formPassword" className="mb-3">
-                    <label htmlFor="password">Password:</label>
+                    <label htmlFor="password">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input
                       type="password"
                       id="password"
