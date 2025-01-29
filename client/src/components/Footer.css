@@ -1,0 +1,95 @@
+.footer {
+    background-color: #ffffffc1;
+    color: #4a154b;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    /* width: 80%;
+    height: 50%; */
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #5e5c5ccf;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-size: cover;
+  }
+  
+  /* .social-icons .facebook { background: url('../images/facebook.jpg') no-repeat center; }
+  .social-icons .linkedin { background: url('linkedin.jpg') no-repeat center; }
+  .social-icons .youtube { background: url('youtube.jpg') no-repeat center; }
+  .social-icons .instagram { background: url('instagram.jpg') no-repeat center; }
+  .social-icons .custom { background: url('custom-icon.png') no-repeat center; } */
+  
+  .regions a,
+  .footer-links a {
+    display: inline-block;
+    margin: 0.5rem 0;
+    color: #4a154b;
+    text-decoration: none;
+  }
+  
+  .contact-link {
+    display: inline-block;
+    color: #82278f;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #82278f;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links div {
+    margin-right: 2rem;
+  }
+  
+  .footer-links h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .brands {
+    font-size: 0.8rem;
+    color: #555;
+    margin-bottom: 0rem;
+    display: none;
+  }
+  
