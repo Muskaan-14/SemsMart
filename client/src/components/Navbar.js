@@ -21,13 +21,21 @@ const NavBar = ({ onCategorySelect }) => {
       <Navbar bg="dark" variant="dark" expand="lg" className="py-2">
         <Container>
           <Navbar.Brand href="/" className="d-flex align-items-center">
-          <img
-              src="./images/Secure_logo.jpg"
+          {/* <img
+              src="./images/finallogo.png"
               alt="Logo"
               width="40"
               className="mr-2"
-            />
-            SEMSMART
+            /> */}
+            <img
+             src="./images/finallogo.png"
+             alt="Logo"
+             width="125"  // Increase width
+             height="40" // Add height for proper scaling
+             className="mr-2"
+             />
+
+           
           </Navbar.Brand>
           <Form inline className="d-flex align-items-center">
             
