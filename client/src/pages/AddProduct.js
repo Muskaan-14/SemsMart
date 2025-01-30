@@ -13,8 +13,8 @@ function AddProduct() {
   const [pimage2, setPimage2] = useState(null);
 
   const handleSubmit = () => {
-    alert("Product Added! (No Backend Call)");
-    navigate('/');
+    alert("Product Added!");
+    navigate('/home');
   };
 
   return (

@@ -9,7 +9,7 @@ function ProductDetail() {
   const [product, setProduct] = useState({
     pname: "Maruti Suzuki Swift 2021",
     pdesc: "2021 - 29,000 km - Excellent Condition",
-    price: "425000",
+    price: "765,000",
     category: "Autos",
     pimage: "/images/product1.jpg",
     // pimage2: "https://via.placeholder.com/400",
