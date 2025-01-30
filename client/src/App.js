@@ -42,7 +42,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductDetails from "./pages/ProductDetails";
 import Profile from './pages/Profile';
 import ContactUs from './pages/ContactUs';
-
+import AddProduct from './pages/AddProduct';
+import ProductDetail from './pages/ProductDetail';
 const App = () => {
   return (
     <Router>
@@ -51,8 +52,11 @@ const App = () => {
         <Route path="/home" element={<HomePage />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/contact" element={<ContactUs />} />
-        <Route path="/product/:id" element={<ProductPage />} />
-        <Route path="/product/:id" element={<ProductDetails />} />
+        <Route path="/sell" element={<AddProduct />} />
+        <Route path="/product/:id" element={<ProductDetail />} />
+        {/* <Route path="/product/:id" element={<ProductPage />} /> */}
+        {/* <Route path="/product/:id" element={<ProductPage />} /> */}
+        {/* <Route path="/product/:id" element={<ProductDetails />} /> */}
         
         {/* Dynamic Category Routes */}
         <Route path="/home/categories/:id" element={<CategoryPage />} />
