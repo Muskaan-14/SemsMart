@@ -218,6 +218,8 @@ const LoginPage = () => {
         navigate('/home'); // Redirect to the homepage after successful login
       } else {
         console.log(data.message || 'Login failed. Please check your credentials.');
+      alert("userId and password are wrong");
+
       }
     } catch (error) {
       console.log("An error occurred. Please try again later.", error.message);
@@ -284,7 +286,7 @@ const LoginPage = () => {
                 <p className="text-center">Please sign in to your account</p>
                 <Form onSubmit={handleLogin}>
                   <Form.Group controlId="formUsername" className="mb-3">
-                    <label htmlFor="username">Username:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label htmlFor="username">UserId:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input
                       type="text"
                       id="username"
