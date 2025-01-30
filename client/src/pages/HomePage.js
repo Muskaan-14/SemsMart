@@ -259,25 +259,25 @@ const HomePage = () => {
   const featuredProducts = [
     {
       title: 'Renault Triber 2019',
-      image: '/images/product1.jpg',
+      image: '/images/renault.jpg',
       description: '2019 - 27,764 km - Mint Condition',
       price: 425000,
     },
     {
       title: 'Maruti Suzuki Swift 2021',
-      image: '/images/product2.jpg',
+      image: '/images/product1.jpg',
       description: '2021 - 29,000 km - Excellent Condition',
       price: 765000,
     },
     {
-      title: 'iPhone 13 Refurbished',
+      title: 'Flat',
       image: '/images/product3.jpg',
-      description: 'Latest model, available at a discounted price',
-      price: 18000,
+      description: 'Well maintained flat, available at a discounted price',
+      price: 1800000,
     },
     {
-      title: 'Hyundai i10 2009',
-      image: '/images/car3.jpg',
+      title: 'Santro car',
+      image: '/images/santro.jpg',
       description: '2009 - 80,000 km - Well maintained',
       price: 155000,
     },
@@ -291,7 +291,7 @@ const HomePage = () => {
       title: 'Premium Watch',
       image: '/images/watch.jpg',
       description: 'Timeless design with exceptional quality',
-      price: 155000,
+      price: 55000,
     },
     {
       title: 'Luxury Fridge',
