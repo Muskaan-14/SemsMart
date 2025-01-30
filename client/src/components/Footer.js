@@ -30,7 +30,7 @@ const Footer = () => {
             <a href="#">South Asia</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="#">UK</a>
           </div>
-          <a href="#" className="contact-link">Contact us</a>
+          <a href="/contact" className="contact-link">Contact us</a>
         </div>
       </div>
       <div className="footer-bottom">
@@ -43,7 +43,7 @@ const Footer = () => {
             <a href="#">About us</a><br></br>
             <a href="#">Events</a><br></br>
             <a href="#">Privacy policy</a><br></br>
-            <a href="#">Contact us</a>
+            <a href="/contact">Contact us</a>
           </div>
           <div className="solutions-links">
             <h3>Our solutions</h3>

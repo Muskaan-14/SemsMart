@@ -41,6 +41,7 @@ import CategoryPage from './pages/CategoryPage'; // New Category Page
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductDetails from "./pages/ProductDetails";
 import Profile from './pages/Profile';
+import ContactUs from './pages/ContactUs';
 
 const App = () => {
   return (
@@ -49,6 +50,7 @@ const App = () => {
         <Route path="/" element={<LoginPage />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="/product/:id" element={<ProductPage />} />
         <Route path="/product/:id" element={<ProductDetails />} />
         
