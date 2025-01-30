@@ -78,7 +78,7 @@ const ProductCard = ({ id, title, image, description, price }) => {
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
         <h5 className="text-success">₹ {price.toLocaleString()}</h5>
-        <Link to={`/product/${id}`}>
+        <Link to={`/product/242322`}>
           <Button variant="primary">View Details</Button>
         </Link>
       </Card.Body>

@@ -278,7 +278,7 @@ const NavBar = () => {
     <>
       <Navbar bg="dark" variant="dark" expand="lg" className="py-2">
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand as={Link} to="/home">
             <img
               src="./images/finallogo.png"
               alt="Logo"
